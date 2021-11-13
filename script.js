@@ -62,7 +62,7 @@ function calcular() {
     res.innerHTML += `<p>Ao todo temos ${tot} m² adicionado no sistema.</p>`
     res.innerHTML += `<p>Total de ${soma.toFixed(2)}m².</p>`
     res.innerHTML += `<p>Considerando que uma unidade de 40' tem 28,30m² e representa 2 TEU.</p>`
-    res.innerHTML += `<p>O total em TEU a 1 de alto será: ${aTeu}TEU.</p>`
-    res.innerHTML += `<p>O total em TEU a 5 de alto será: ${teu2}TEU.</p>`
+    res.innerHTML += `<p>O total em TEU a 1 de alto será: ${aTeu} TEU.</p>`
+    res.innerHTML += `<p>O total em TEU a 5 de alto será: ${teu2} TEU.</p>`
   }
 }

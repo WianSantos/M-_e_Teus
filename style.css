@@ -1,6 +1,6 @@
 body {
   background-image: url('image/Container.jpg');
-  font: normal 15pt Arial;
+  font: normal 16pt Arial;
 }
 header {
   color: rgb(245, 221, 243);
@@ -22,8 +22,13 @@ section {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.433);
 }
 
-select#seldados {
-  width: 150px;
+select#selDados {
+  width: 300px;
+  margin-left: 20%;
+}
+input#cal,
+input#but {
+  margin-left: 41%;
 }
 footer {
   color: white;
@@ -33,4 +38,10 @@ footer {
   margin-right: 46%;
   background-color: rgb(252, 99, 64);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.433);
+}
+p.l {
+  margin-left: 20%;
+}
+p.c {
+  margin-left: 15%;
 }

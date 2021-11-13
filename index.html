@@ -16,11 +16,16 @@
     </header>
     <section>
       <div>
-        <p>Largura: <input type="number" name="metros" id="txtM" /></p>
-        <p>Cumprimento: <input type="number" name="cumprimento" id="txtC" /></p>
+        <p class="l">
+          Largura: <input type="number" name="metros" id="txtM" />
+        </p>
+        <p class="c">
+          Cumprimento: <input type="number" name="cumprimento" id="txtC" />
+        </p>
         <input type="button" value="Gerar dados" id="but" onclick="gerar()" />
         <br />
         <br />
+
         <select name="flista" id="selDados" size="6"></select>
         <br />
         <input type="button" value="calcular" id="cal" onclick="calcular()" />
@@ -29,7 +34,7 @@
       <div id="res"></div>
     </section>
     <footer>
-      <p>&copy; WianSantos</p>
+      <p>&copy; <a href="https://github.com/WianSantos">WianSantos</a></p>
     </footer>
 
     <script src="script.js"></script>
