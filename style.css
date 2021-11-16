@@ -8,20 +8,20 @@ body {
   font: normal 16pt Arial;
 }
 header {
-  color: #2c0c01;
+  color: #c90505;
   text-align: center;
   font-family: sans-serif;
   border-radius: 10px;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-left: 30%;
   margin-right: 30%;
-  background-color: #d85716;
+  background-color: #b3e4fa;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.433);
 }
 
 section {
   color: black;
-  background: #e6852c;
+  background: #f2f0ee;
   border-radius: 10px;
   padding: 15px;
   width: 500px;
