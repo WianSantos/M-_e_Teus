@@ -44,7 +44,7 @@ function calcular() {
     let maior = valores[0]
     let menor = valores[0]
     let soma = 0
-    let quarentao = 28.3
+    let vinte = 12.49
     let teu = 0
     let aTeu = 0
     let teu2 = 0
@@ -54,7 +54,7 @@ function calcular() {
       if (valores[pos] > maior) maior = valores[pos]
       if (valores[pos] < menor) menor = valores[pos]
     }
-    teu = soma.toFixed(2) / quarentao
+    teu = soma.toFixed(2) / vinte
     aTeu = Math.round(teu)
     teu2 = aTeu * 5
 

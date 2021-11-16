@@ -1,24 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url('image/Container.jpg');
   font: normal 16pt Arial;
 }
 header {
-  color: rgb(245, 221, 243);
+  color: #2c0c01;
   text-align: center;
   font-family: sans-serif;
   border-radius: 10px;
+  margin-top: 5px;
   margin-left: 30%;
   margin-right: 30%;
-  background-color: rgb(44, 33, 55);
+  background-color: #d85716;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.433);
 }
 
 section {
-  background: rgb(223, 222, 218);
+  color: black;
+  background: #e6852c;
   border-radius: 10px;
   padding: 15px;
   width: 500px;
-  margin: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.433);
 }
 
@@ -34,9 +43,10 @@ footer {
   color: white;
   text-align: center;
   font-style: italic;
+  margin-top: 15px;
   margin-left: 45%;
   margin-right: 45%;
-  background-color: rgb(252, 99, 64);
+  background-color: #f09078;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.433);
 }
 p.l {
@@ -44,4 +54,7 @@ p.l {
 }
 p.c {
   margin-left: 15%;
+}
+#res {
+  font-size: x-large;
 }
